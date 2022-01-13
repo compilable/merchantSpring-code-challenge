@@ -20,26 +20,26 @@ const AppLogic = () => {
     console.error(`unable to load the data from the server, please check the connection to : ${API_ENDPOINT}`)
   }
 
-  React.useEffect(() => {
-    fetch(API_ENDPOINT + "user")
-      .then((results) => results.json())
-      .then((data) => {
-        setUser(data);
-      }, (error) => {
-        if (error) {
-          logError(error)
-        }
-      });
+  const makeServiceCall = (endpoint:string)=>{
+    fetch(API_ENDPOINT + endpoint)
+    .then((results) => results.json())
+    .then((data) => {
+      if(endpoint==="user"){
+        setUser(data)
+      }else if(endpoint==="overdueOrders"){
+        setOverdueOrders(data)
+      }
+      
+    }, (error) => {
+      if (error) {
+        logError(error)
+      }
+    });
+  }
 
-    fetch(API_ENDPOINT + "overdueOrders")
-      .then((results) => results.json())
-      .then((data) => {
-        setOverdueOrders(data);
-      }, (error) => {
-        if (error) {
-          logError(error)
-        }
-      });
+  React.useEffect(() => {
+    makeServiceCall("user")
+    makeServiceCall("overdueOrders")
     // eslint-disable-next-line react-hooks/exhaustive-deps
   }, []);
 
