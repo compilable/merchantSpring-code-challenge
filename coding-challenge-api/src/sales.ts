@@ -26,6 +26,7 @@ async function loadStores() {
 }
 
 async function loadOverdueOrders(store: Map<number, any>) {
+  // tyring to minimize the iteration since 
   // filtr the orders based on :  shipment_status = Pending
   // map the order to store details
   // calculate shipping delay
@@ -66,6 +67,7 @@ async function loadOverdueOrders(store: Map<number, any>) {
 }
 
 export async function getOverdueOrders(req: any, res: any) {
+  // store details, can be kept in cache, if not updating frequenty
   const storeMap = await loadStores()
   console.log(`INFO: Total of ${storeMap.size} stores loaded from the datasource.`)
   const overdueOrders = await loadOverdueOrders(storeMap)
