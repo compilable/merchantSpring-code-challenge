@@ -29,3 +29,10 @@ This coding challenge is designed to assess how you approach and solve a problem
 - The code should run locally on your machine (doesn't need to be deployed anywhere)
 - Please check the completed challenge in to a git repository and email us the link
 - If you have any questions about the challenge or the requirements please feel free to reach out to the team and we will answer them :)
+
+
+## Solution:
+
+- [UI Solution ->](https://github.com/compilable/merchantSpring-code-challenge/tree/main/coding-challenge-ui )
+
+- [API Solution ->](https://github.com/compilable/merchantSpring-code-challenge/tree/main/coding-challenge-api)
