@@ -1,0 +1,39 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`has OverdueOrderTable component loaded 1`] = `
+<styled.div>
+  <styled.header>
+    <styled.h1>
+      Analytics Dashboard
+    </styled.h1>
+    <styled.span>
+      Welcome, 
+      Guest
+      !
+    </styled.span>
+  </styled.header>
+  <OverdueOrderTable
+    heading="Overdue Orders"
+    orders={Array []}
+  />
+</styled.div>
+`;
+
+exports[`has the main component loaded 1`] = `
+<styled.div>
+  <styled.header>
+    <styled.h1>
+      Analytics Dashboard
+    </styled.h1>
+    <styled.span>
+      Welcome, 
+      Guest
+      !
+    </styled.span>
+  </styled.header>
+  <OverdueOrderTable
+    heading="Overdue Orders"
+    orders={Array []}
+  />
+</styled.div>
+`;

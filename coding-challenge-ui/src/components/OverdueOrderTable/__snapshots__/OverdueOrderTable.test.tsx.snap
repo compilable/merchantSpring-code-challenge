@@ -1,0 +1,371 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`has the table component loaded 1`] = `
+<WithStyles(ForwardRef(Container))
+  style={
+    Object {
+      "margin": "40px auto",
+    }
+  }
+>
+  <WithStyles(Component)
+    columns={
+      Array [
+        Object {
+          "align": "justify",
+          "field": "marketPlace",
+          "render": [Function],
+          "tableData": Object {
+            "additionalWidth": 0,
+            "columnOrder": 0,
+            "filterValue": undefined,
+            "groupOrder": undefined,
+            "groupSort": "asc",
+            "id": 0,
+            "initialWidth": "calc((100% - 0px) / 7)",
+            "width": "calc((100% - 0px) / 7)",
+            "widthPx": NaN,
+          },
+          "title": "MARKETPLACE",
+        },
+        Object {
+          "align": "justify",
+          "field": "shopName",
+          "tableData": Object {
+            "additionalWidth": 0,
+            "columnOrder": 1,
+            "filterValue": undefined,
+            "groupOrder": undefined,
+            "groupSort": "asc",
+            "id": 1,
+            "initialWidth": "calc((100% - 0px) / 7)",
+            "width": "calc((100% - 0px) / 7)",
+            "widthPx": NaN,
+          },
+          "title": "STORE",
+        },
+        Object {
+          "align": "justify",
+          "field": "orderId",
+          "tableData": Object {
+            "additionalWidth": 0,
+            "columnOrder": 2,
+            "filterValue": undefined,
+            "groupOrder": undefined,
+            "groupSort": "asc",
+            "id": 2,
+            "initialWidth": "calc((100% - 0px) / 7)",
+            "width": "calc((100% - 0px) / 7)",
+            "widthPx": NaN,
+          },
+          "title": "ORDER ID",
+        },
+        Object {
+          "align": "justify",
+          "field": "orderValue",
+          "tableData": Object {
+            "additionalWidth": 0,
+            "columnOrder": 3,
+            "filterValue": undefined,
+            "groupOrder": undefined,
+            "groupSort": "asc",
+            "id": 3,
+            "initialWidth": "calc((100% - 0px) / 7)",
+            "width": "calc((100% - 0px) / 7)",
+            "widthPx": NaN,
+          },
+          "title": "ORDER VALUE",
+          "type": "currency",
+        },
+        Object {
+          "align": "justify",
+          "field": "items",
+          "tableData": Object {
+            "additionalWidth": 0,
+            "columnOrder": 4,
+            "filterValue": undefined,
+            "groupOrder": undefined,
+            "groupSort": "asc",
+            "id": 4,
+            "initialWidth": "calc((100% - 0px) / 7)",
+            "width": "calc((100% - 0px) / 7)",
+            "widthPx": NaN,
+          },
+          "title": "ITEMS",
+        },
+        Object {
+          "align": "justify",
+          "field": "destination",
+          "tableData": Object {
+            "additionalWidth": 0,
+            "columnOrder": 5,
+            "filterValue": undefined,
+            "groupOrder": undefined,
+            "groupSort": "asc",
+            "id": 5,
+            "initialWidth": "calc((100% - 0px) / 7)",
+            "width": "calc((100% - 0px) / 7)",
+            "widthPx": NaN,
+          },
+          "title": "DESTINATION",
+        },
+        Object {
+          "align": "center",
+          "field": "daysOverdue",
+          "render": [Function],
+          "tableData": Object {
+            "additionalWidth": 0,
+            "columnOrder": 6,
+            "filterValue": undefined,
+            "groupOrder": undefined,
+            "groupSort": "asc",
+            "id": 6,
+            "initialWidth": "calc((100% - 0px) / 7)",
+            "width": "calc((100% - 0px) / 7)",
+            "widthPx": NaN,
+          },
+          "title": "DAYS OVERDUE",
+        },
+      ]
+    }
+    data={
+      Array [
+        Object {
+          "country": "LI",
+          "daysOverdue": 5,
+          "destination": "Carmichael",
+          "id": "a73cf3be-453f-4870-b326-b5a73429cdb1",
+          "items": 4,
+          "marketPlace": "https://flagcdn.com/w20/nr.png",
+          "orderId": "SS34OVE",
+          "orderValue": "205.00",
+          "shopName": "Cole Inc",
+        },
+        Object {
+          "country": "SS",
+          "daysOverdue": 2,
+          "destination": "Summerville",
+          "id": "2715bf0c-bb1e-431b-8b90-f3443a1108e0",
+          "items": 42,
+          "marketPlace": "https://flagcdn.com/w20/no.png",
+          "orderId": "PE05MPZ",
+          "orderValue": "788.00",
+          "shopName": "Wyman, Grady and Prosacco",
+        },
+      ]
+    }
+    icons={
+      Object {
+        "SortArrow": Object {
+          "$$typeof": Symbol(react.forward_ref),
+          "render": [Function],
+        },
+      }
+    }
+    options={
+      Object {
+        "align": "center",
+        "emptyRowsWhenPaging": false,
+        "headerStyle": Object {
+          "backgroundColor": "#cccccc",
+          "color": "rgb(77 71 71)",
+        },
+        "pageSize": 5,
+        "pageSizeOptions": Array [
+          5,
+        ],
+        "paging": true,
+        "search": false,
+        "showTitle": true,
+        "toolbar": true,
+      }
+    }
+    title="Overdue Orders"
+  />
+</WithStyles(ForwardRef(Container))>
+`;
+
+exports[`has the table data loaded 1`] = `
+<WithStyles(ForwardRef(Container))
+  style={
+    Object {
+      "margin": "40px auto",
+    }
+  }
+>
+  <WithStyles(Component)
+    columns={
+      Array [
+        Object {
+          "align": "justify",
+          "field": "marketPlace",
+          "render": [Function],
+          "tableData": Object {
+            "additionalWidth": 0,
+            "columnOrder": 0,
+            "filterValue": undefined,
+            "groupOrder": undefined,
+            "groupSort": "asc",
+            "id": 0,
+            "initialWidth": "calc((100% - 0px) / 7)",
+            "width": "calc((100% - 0px) / 7)",
+            "widthPx": NaN,
+          },
+          "title": "MARKETPLACE",
+        },
+        Object {
+          "align": "justify",
+          "field": "shopName",
+          "tableData": Object {
+            "additionalWidth": 0,
+            "columnOrder": 1,
+            "filterValue": undefined,
+            "groupOrder": undefined,
+            "groupSort": "asc",
+            "id": 1,
+            "initialWidth": "calc((100% - 0px) / 7)",
+            "width": "calc((100% - 0px) / 7)",
+            "widthPx": NaN,
+          },
+          "title": "STORE",
+        },
+        Object {
+          "align": "justify",
+          "field": "orderId",
+          "tableData": Object {
+            "additionalWidth": 0,
+            "columnOrder": 2,
+            "filterValue": undefined,
+            "groupOrder": undefined,
+            "groupSort": "asc",
+            "id": 2,
+            "initialWidth": "calc((100% - 0px) / 7)",
+            "width": "calc((100% - 0px) / 7)",
+            "widthPx": NaN,
+          },
+          "title": "ORDER ID",
+        },
+        Object {
+          "align": "justify",
+          "field": "orderValue",
+          "tableData": Object {
+            "additionalWidth": 0,
+            "columnOrder": 3,
+            "filterValue": undefined,
+            "groupOrder": undefined,
+            "groupSort": "asc",
+            "id": 3,
+            "initialWidth": "calc((100% - 0px) / 7)",
+            "width": "calc((100% - 0px) / 7)",
+            "widthPx": NaN,
+          },
+          "title": "ORDER VALUE",
+          "type": "currency",
+        },
+        Object {
+          "align": "justify",
+          "field": "items",
+          "tableData": Object {
+            "additionalWidth": 0,
+            "columnOrder": 4,
+            "filterValue": undefined,
+            "groupOrder": undefined,
+            "groupSort": "asc",
+            "id": 4,
+            "initialWidth": "calc((100% - 0px) / 7)",
+            "width": "calc((100% - 0px) / 7)",
+            "widthPx": NaN,
+          },
+          "title": "ITEMS",
+        },
+        Object {
+          "align": "justify",
+          "field": "destination",
+          "tableData": Object {
+            "additionalWidth": 0,
+            "columnOrder": 5,
+            "filterValue": undefined,
+            "groupOrder": undefined,
+            "groupSort": "asc",
+            "id": 5,
+            "initialWidth": "calc((100% - 0px) / 7)",
+            "width": "calc((100% - 0px) / 7)",
+            "widthPx": NaN,
+          },
+          "title": "DESTINATION",
+        },
+        Object {
+          "align": "center",
+          "field": "daysOverdue",
+          "render": [Function],
+          "tableData": Object {
+            "additionalWidth": 0,
+            "columnOrder": 6,
+            "filterValue": undefined,
+            "groupOrder": undefined,
+            "groupSort": "asc",
+            "id": 6,
+            "initialWidth": "calc((100% - 0px) / 7)",
+            "width": "calc((100% - 0px) / 7)",
+            "widthPx": NaN,
+          },
+          "title": "DAYS OVERDUE",
+        },
+      ]
+    }
+    data={
+      Array [
+        Object {
+          "country": "LI",
+          "daysOverdue": 5,
+          "destination": "Carmichael",
+          "id": "a73cf3be-453f-4870-b326-b5a73429cdb1",
+          "items": 4,
+          "marketPlace": "https://flagcdn.com/w20/nr.png",
+          "orderId": "SS34OVE",
+          "orderValue": "205.00",
+          "shopName": "Cole Inc",
+        },
+        Object {
+          "country": "SS",
+          "daysOverdue": 2,
+          "destination": "Summerville",
+          "id": "2715bf0c-bb1e-431b-8b90-f3443a1108e0",
+          "items": 42,
+          "marketPlace": "https://flagcdn.com/w20/no.png",
+          "orderId": "PE05MPZ",
+          "orderValue": "788.00",
+          "shopName": "Wyman, Grady and Prosacco",
+        },
+      ]
+    }
+    icons={
+      Object {
+        "SortArrow": Object {
+          "$$typeof": Symbol(react.forward_ref),
+          "render": [Function],
+        },
+      }
+    }
+    options={
+      Object {
+        "align": "center",
+        "emptyRowsWhenPaging": false,
+        "headerStyle": Object {
+          "backgroundColor": "#cccccc",
+          "color": "rgb(77 71 71)",
+        },
+        "pageSize": 5,
+        "pageSizeOptions": Array [
+          5,
+        ],
+        "paging": true,
+        "search": false,
+        "showTitle": true,
+        "toolbar": true,
+      }
+    }
+    title="Overdue Orders"
+  />
+</WithStyles(ForwardRef(Container))>
+`;

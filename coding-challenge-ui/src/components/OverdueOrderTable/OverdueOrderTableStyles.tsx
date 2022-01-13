@@ -27,7 +27,7 @@ const OverdueOrderTableStyles = () => {
     };
 
     const tableStyles = {
-        margin: "30px auto",
+        margin: "40px auto",
     }
 
     return { tableOptions, tableIcons,tableStyles }
